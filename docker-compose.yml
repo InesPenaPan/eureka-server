@@ -1,0 +1,12 @@
+services:
+  eureka-server:
+    build: .
+    container_name: eureka-server
+    ports:
+      - "8761:8761"
+    networks:
+      - platform-network
+
+networks:
+  platform-network:
+    external: true
