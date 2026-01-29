@@ -24,6 +24,14 @@ El proyecto integrando las siguientes librerías:
 
 ## ⚡ Ejuctar el servicio
 
-Una vez levantado, puedes acceder al panel de control en tu navegador: `http://localhost:8761`
+## ⚡ Ejecucción
+
+Navega hasta el directorio raíz del proyecto y ejecuta el siguiente comando en tu terminal:
+
+```bash
+docker compose up --build -d
+```
+
+Una vez levantado el contenedor, puedes acceder al panel de control desde el navegador: `http://localhost:8761`
 
 
