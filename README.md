@@ -12,6 +12,8 @@ Funcionalidades principales:
 * Mecanismo de autopreservación ante fallos de red.
 * Interfaz gráfica para supervisión en tiempo real.
 
+Para más detalles sobre la integración de servicios, consulta la [Documentación de Eureka Client](https://docs.spring.io/spring-cloud-netflix/docs/current/reference/html/#service-discovery-eureka-clients).
+
 
 ## 🛠️ Stack
 
@@ -21,9 +23,6 @@ El proyecto integrando las siguientes librerías:
 * **Spring Boot Actuator**: Monitorización del estado de salud del servicio.
 * **Spring Boot Starter Web**: Soporte para la interfaz web y la API del servidor.
 
-
-## ⚡ Ejuctar el servicio
-
 ## ⚡ Ejecucción
 
 Navega hasta el directorio raíz del proyecto y ejecuta el siguiente comando en tu terminal:
@@ -32,6 +31,6 @@ Navega hasta el directorio raíz del proyecto y ejecuta el siguiente comando en 
 docker compose up --build -d
 ```
 
-Una vez levantado el contenedor, puedes acceder al panel de control desde el navegador: `http://localhost:8761`
+Una vez levantado el contenedor, puedes acceder al panel de control desde el navegador: http://localhost:8761
 
 
