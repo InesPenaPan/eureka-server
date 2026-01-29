@@ -1,7 +1,7 @@
 # Service Discovery
 **Componente del Trabajo de Fin de Máster (TFM)** > *Máster en Ingeniería de Software y Sistemas Informáticos (MSSI)*
 
-Este microservicio actúa como el Service Registry (Directorio de Servicios). Utiliza **Spring Cloud Netflix Eureka** para permitir que otros microservicios (Java, FastAPI, etc.) se registren y se localicen entre sí sin necesidad de conocer sus direcciones IP fijas.
+Registro de instancias basado en **Netflix Eureka** que permite a los microservicios localizarse entre sí de forma automática, eliminando la necesidad de gestionar direcciones IP manualmente.
 
 ## 💻 Funcionalidades Principales
 
